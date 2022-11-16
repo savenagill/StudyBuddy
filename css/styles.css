@@ -1,0 +1,148 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+#title{
+background-color:#714593dc;
+}
+
+h1{
+  font-family:'Fasthand';
+  font-weight:bold;
+  font-size:3rem;
+  line-height:1.5;
+  color:#fff;
+}
+h2{
+  color:#fff;
+  font-family:'Lato';
+  font-size:1.5;
+  font-weight:bold;
+}
+
+h3{
+  font-family: 'Fasthand';
+  font-weight:bold;
+}
+p{
+  color:#8f8f8f;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+/* Navigation Bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family:'Fasthand';
+  font-size:3rem;
+  font-weight:bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family:'Fasthand';
+  font-weight:bold;
+  font-size:1.5rem;
+}
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* Title Image */
+.title-image{
+  width:60%;
+  transform: rotate(20deg);
+  position:absolute;
+}
+
+/* Features section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  z-index:1;
+  position: relative;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color:#0a5f15e1;
+  margin-bottom:1rem;
+}
+.icon:hover{
+  color:#714593dc;
+}
+/* Testimonials Section */
+#testimonials{
+  padding: 7% 15%;
+  text-align:center;
+  background-color:#714593dc;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius:50%;
+  margin:10px;
+}
+#press{
+  background-color:#714593dc;
+  text-align:center;
+}
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+/* Pricing Section */
+#pricing{
+  padding:100px;
+  text-align: center;
+  background-color: #fff;
+}
+.pricing-header{
+  color:#000;
+  font-family:'Fasthand';
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+/* Call to Action Section CTA */
+#cta{
+  background-color:#714593dc;
+  color:#fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading{
+  font-family:'Fasthand';
+  font-weight:bold;
+  font-size:4rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+.social-icon{
+  margin:20px 10px;
+}
+
+
+/* Media Query Section */
+@media(max-width:1028px)
+{
+ #title{
+  text-align:center;
+ }
+  .title-image
+  {
+    position:static;
+    transform:rotate(0);
+  }
+}
